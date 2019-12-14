@@ -1,8 +1,11 @@
 <html>
   <head>
     <script>
-    window.navigator.vibrate(30000);
+      function vibrate() {
+        window.navigator.vibrate(30000);
     </script>
       </head>
-  <body></body>
+  <body>
+    <button style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)" onclick="vibrate()">Start</button>    
+  </body>
 </html>
